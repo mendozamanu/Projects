@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+#Projects page
+This page will gather all the articles and papers developed during my PhD thesis and will also reference the available Github code.
 
-You can use the [editor on GitHub](https://github.com/mendozamanu/projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mendozamanu/projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Survey on mobility data
+This paper presents a comparative study between clustering analysis, which is typically used in mobility scenarios, and supervised classification for the identification of home and work zones of an area. We will use a mobility dataset from the city of Milan to achieve this. Using passive
+mobile positioning data offers a powerful tool to study the geography and the mobility of the population. With the available data, we will try to
+identify workplaces and residential areas using both supervised classification and clustering. In order to generate training data for the classification
+model, we manually label several sub-regions of the available grid, one with random cells and another with a 20-by-20 resolution. Experimental
+results show that the kNN algorithm provides an acceptable accuracy that could be able to predict if a cell represent a working or a residential
+area for the full grid, thanks to the semi-supervised approach used in learning from a manually-labeled region. However, the results provided
+with k-means and k-medoids clustering show that it is not able to accomplish the former idea, instead it focuses on identifying the mobile traffic
+distribution around the city. 
+[Link](url) to the paper
+Github repo: https://github.com/mendozamanu/milan-mobility
