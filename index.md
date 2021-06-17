@@ -1,5 +1,6 @@
+#Main projects 
 This page will gather all the articles and papers developed during my PhD thesis and will also reference the available Github code.
-Main website: mendozamanu.github.io
+Main website: [mendozamanu.github.io](https://mendozamanu.github.io)
 
 ## Survey on mobility data
 #### Abstract
